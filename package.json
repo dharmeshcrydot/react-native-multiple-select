@@ -1,25 +1,61 @@
 {
-  "name": "react-native-multiple-select",
-  "version": "0.5.2",
-  "description": "Simple multi-select component for react-native",
-  "main": "index.js",
-  "scripts": {
-    "precommit": "lint-staged",
-    "test": "jest",
-    "lint": "eslint lib/"
+  "_from": "react-native-multiple-select",
+  "_id": "react-native-multiple-select@0.5.3",
+  "_inBundle": false,
+  "_integrity": "sha512-fjcoa7ekKG/ffXZjyOWqSTFqeRVKaArGYCOWqfLbWOWRugQzVPpjO95iWdG8SuZmGixYpYi642g8rmTrjeOQ5Q==",
+  "_location": "/react-native-multiple-select",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-multiple-select",
+    "name": "react-native-multiple-select",
+    "escapedName": "react-native-multiple-select",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-multiple-select/-/react-native-multiple-select-0.5.3.tgz",
+  "_shasum": "185404ec04f993aeadc1b2ae5f995b13d52fab16",
+  "_spec": "react-native-multiple-select",
+  "_where": "/home/rydot-react/dhiraj/projects/rydot_salesapp_mobile",
+  "author": {
+    "name": "Mustapha Babatunde Oluwaleke"
+  },
+  "bugs": {
+    "url": "https://github.com/toystars/react-native-multiple-select/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "deprecated": false,
+  "description": "Simple multi-select component for react-native",
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "babel-jest": "23.6.0",
+    "babel-preset-react-native": "^4.0.1",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-react-native": "^4.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-react-native": "^3.7.0",
+    "husky": "^0.14.3",
+    "jest": "^23.3.6",
+    "lint-staged": "^5.0.0",
+    "prettier": "^1.15.3",
+    "react-test-renderer": "16.6.3",
+    "remote-redux-devtools": "^0.5.16"
+  },
+  "homepage": "https://github.com/toystars/react-native-multiple-select#readme",
   "jest": {
     "preset": "jest-react-native"
-  },
-  "lint-staged": {
-    "*.{js,json,css}": [
-      "prettier --single-quote --write",
-      "git add"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/toystars/react-native-multiple-select.git"
   },
   "keywords": [
     "reactnative",
@@ -27,34 +63,29 @@
     "multi-select",
     "react-native"
   ],
-  "author": "Mustapha Babatunde Oluwaleke",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/toystars/react-native-multiple-select/issues"
+  "lint-staged": {
+    "*.{js,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
   },
-  "homepage": "https://github.com/toystars/react-native-multiple-select#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "babel-eslint": "^7.1.1",
-    "babel-jest": "23.6.0",
-    "babel-preset-react-native": "^1.9.1",
-    "eslint": "^3.15.0",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.9.0",
-    "husky": "^0.14.3",
-    "jest": "^23.3.6",
-    "jest-react-native": "^18.0.0",
-    "lint-staged": "^5.0.0",
-    "prettier": "^1.15.3",
-    "react-test-renderer": "16.6.3",
-    "remote-redux-devtools": "^0.5.16"
-  },
+  "main": "index.js",
+  "name": "react-native-multiple-select",
   "peerDependencies": {
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.14",
     "react": "16.6.3",
     "react-native": "^0.57.8",
-    "react-native-vector-icons": "^6.1.0"
-  }
+    "react-native-vector-icons": "^6.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toystars/react-native-multiple-select.git"
+  },
+  "scripts": {
+    "lint": "eslint lib/",
+    "precommit": "lint-staged",
+    "test": "jest"
+  },
+  "version": "0.5.3"
 }
